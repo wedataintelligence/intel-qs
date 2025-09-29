@@ -15,7 +15,7 @@
 ##------------------------------------------------------------------------------
 
 # Use an official Ubuntu linux image as the run time environment.
-FROM ubuntu:latest
+FROM ubuntu:24.10
 
 # Setup the proxy server environment.
 ENV http_proxy http://proxy-chain.intel.com:911
